@@ -23,6 +23,7 @@ const Menu = () => {
           alt='open'
           width={20}
           height={20}
+          sizes='100%'
           onClick={() => setOpen(!open)}
         />
       ) : (
@@ -32,6 +33,7 @@ const Menu = () => {
           alt='open'
           width={20}
           height={20}
+          sizes='100%'
           onClick={() => setOpen(!open)}
         />
       )}

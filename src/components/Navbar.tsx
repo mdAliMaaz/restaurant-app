@@ -25,7 +25,13 @@ const Navbar = () => {
       {/* RIGHT LINKS */}
       <div className=' hidden md:flex gap-4 items-center justify-end flex-1'>
         <div className='flex md:absolute top-3 right-2 lg:static items-center gap-2 cursor-pointer bg-orange-300 px-1 rounded-md'>
-          <Image src='/phone.png' height={20} width={20} alt='phone' />
+          <Image
+            src='/phone.png'
+            sizes='100%'
+            height={20}
+            width={20}
+            alt='phone'
+          />
           <span>8217683972</span>
         </div>
         {!user ? (
